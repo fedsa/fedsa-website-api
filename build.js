@@ -1,9 +1,9 @@
-// const { puppeteer } = require('chrome-aws-lambda')
-const puppeteer = require('puppeteer')
+// const puppeteer = require('puppeteer')
+const chromium = require('chrome-aws-lambda')
 const fs = require('fs')
 
 const init = async () => {
-  const browser = await puppeteer.launch({
+  const browser = await chromium.puppeteer.launch({
     args: await chromium.args,
     executablePath: await chromium.executablePath,
     headless: true,
