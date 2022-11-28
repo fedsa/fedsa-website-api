@@ -1,0 +1,23 @@
+{
+  "name": "apier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedsa/fedsa-website-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedsa/fedsa-website-api/issues"
+  },
+  "homepage": "https://github.com/fedsa/fedsa-website-api#readme",
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer": "^19.3.0"
+  }
+}
